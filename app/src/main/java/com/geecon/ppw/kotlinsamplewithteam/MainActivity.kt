@@ -15,10 +15,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d("Divisible by 10 : ", i.toString())
             } else if(i % 3 == 0) {
                 Log.d("Divisible by 3 : ", i.toString())
-            } else if(i % 4 == 0) {
-                Log.d("Divisible by 4 : ", i.toString())
             }
-
         }
     }
 }
