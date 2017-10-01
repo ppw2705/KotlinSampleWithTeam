@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         for(i in 0..30) {
             if(i % 10 == 0) {
-                Log.d("Divisible by 10 : ", i.toString())
+                Log.d(" 10 : ", i.toString())
             } else if(i % 3 == 0) {
                 Log.d("Divisible by 3 : ", i.toString())
             }
